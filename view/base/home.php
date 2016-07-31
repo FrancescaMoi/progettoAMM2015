@@ -47,23 +47,23 @@
 
     <section class="slider">
         <div>
-        	 <div> <img id="immagine4" title="nuoviArrivi" alt="NUOVI ARRIVI" src="../immagini/home/scarpe6.jpg"> </div>   
-            <div> <img id="immagine1" title="nuoviArrivi" alt="NUOVI ARRIVI" src="../immagini/home/scarpe2.png"> </div>     	
-            <div> <img id="immagine2" title="nuoviArrivi" alt="NUOVI ARRIVI" src="../immagini/home/scarpe1.jpg"> </div>
-            <div> <img id="immagine3" title="nuoviArrivi" alt="NUOVI ARRIVI" src="../immagini/home/scarpe3.jpg"> </div>            
+        	 <div> <img id="immagine4" title="nuoviArrivi" alt="NUOVI ARRIVI" src="immagini/home/scarpe6.jpg"> </div>   
+            <div> <img id="immagine1" title="nuoviArrivi" alt="NUOVI ARRIVI" src="immagini/home/scarpe2.png"> </div>     	
+            <div> <img id="immagine2" title="nuoviArrivi" alt="NUOVI ARRIVI" src="immagini/home/scarpe1.jpg"> </div>
+            <div> <img id="immagine3" title="nuoviArrivi" alt="NUOVI ARRIVI" src="immagini/home/scarpe3.jpg"> </div>            
                     
-            <div> <img id="immagine5" title="nuoviArrivi" alt="NUOVI ARRIVI" src="../immagini/home/scarpe9.jpg"> </div>
+            <div> <img id="immagine5" title="nuoviArrivi" alt="NUOVI ARRIVI" src="immagini/home/scarpe9.jpg"> </div>
         </div>
     </section>
 
      <section class="slider">
         <div>
 
-            <div> <img id="immagine6" title="nuoviArrivi" alt="NUOVI ARRIVI" src="../immagini/home/scarpe10.jpg"> </div>
-            <div> <img id="immagine7" title="nuoviArrivi" alt="NUOVI ARRIVI" src="../immagini/home/scarpe11.jpg"> </div>
-            <div> <img id="immagine8" title="nuoviArrivi" alt="NUOVI ARRIVI" src="../immagini/home/scarpe4.jpg"> </div>     	
-            <div> <img id="immagine10" title="nuoviArrivi" alt="NUOVI ARRIVI" src="../immagini/home/scarpe7.jpg"> </div>
-            <div> <img id="immagine11" title="nuoviArrivi" alt="NUOVI ARRIVI" src="../immagini/home/scarpe8.jpg"> </div>
+            <div> <img id="immagine6" title="nuoviArrivi" alt="NUOVI ARRIVI" src="immagini/home/scarpe10.jpg"> </div>
+            <div> <img id="immagine7" title="nuoviArrivi" alt="NUOVI ARRIVI" src="immagini/home/scarpe11.jpg"> </div>
+            <div> <img id="immagine8" title="nuoviArrivi" alt="NUOVI ARRIVI" src="immagini/home/scarpe4.jpg"> </div>     	
+            <div> <img id="immagine10" title="nuoviArrivi" alt="NUOVI ARRIVI" src="immagini/home/scarpe7.jpg"> </div>
+            <div> <img id="immagine11" title="nuoviArrivi" alt="NUOVI ARRIVI" src="immagini/home/scarpe8.jpg"> </div>
         </div>
     </section>
 </div>

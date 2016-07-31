@@ -19,14 +19,14 @@
         <meta name="keywords" content="shop scarpe acessori shoese"> <!--ecc -->
         <meta name="description" content="Vendita di scarpe e aceessori online">
         <meta name="author" content="Francesca Moi">
-        <link rel="shortcut icon" type="image/x-icon" href="../immagini/scarpa1.jpg">
-        <link href="../layout.css" rel="stylesheet" type="text/css" media="screen">
+        <link rel="shortcut icon" type="image/x-icon" href="immagini/scarpa1.jpg">
+        <link href="layout.css" rel="stylesheet" type="text/css" media="screen">
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jcider/latest/jcider.css">
         <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
         <script src="https://cdn.jsdelivr.net/jquery.jcider/latest/jcider.min.js"></script>
 
-        <link href="../adipoli.css" rel="stylesheet" type="text/css"/>
+        <link href="adipoli.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery.adipoli.min.js" type="text/javascript"></script>
         <script src="js/cookies.js" type="text/javascript"></script>
         <script>
