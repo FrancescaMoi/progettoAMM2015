@@ -1,0 +1,522 @@
+/* IMPOSTAZIONI PRINCIPALI DEL SISTEMA */
+
+body{
+    background-color: #FFFEEF;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+div#page{
+    background-color: #FAEBD7; 
+    width: 1000px;
+    height: auto; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    //border-radius: 20px;     
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+} 
+
+/*header*/
+header{
+	//color: #C41E3A;
+	height: 140px;
+    width: 100%;
+    padding-top:30px;
+	border-bottom: 1px solid  #969696;
+    float: left;
+}
+
+div#logo{
+    text-align: center;
+    font-size: 40pt;
+    font-family: "raleway", sans-serif;
+}
+
+/*menu a tendina contenuto nel nav*/
+nav{
+    position:relative;
+	width:100%;
+	height:50px;
+    float: left; 
+    background-color: #000000;
+    border: 1.5px solid #000000;
+    padding:0;
+    text-align: center;  
+}
+/*menu a tendina*/
+ul.menu{  
+    position:relative;
+    height: 100%;
+    width:98%;
+    list-style-type: none;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-style: italic;
+    font-family: "times new roman", times, serif;
+    font-size: 12pt;   
+    text-align: center; 
+    padding:0;
+}
+
+/*elementi della lista*/
+li.menu{	    
+    position:relative;
+    width:25%;
+    height:100%; 
+    float: left; 
+    text-align: center;
+}
+
+li.menu#menuAmministratori{
+     width:28%;
+}
+
+/*sottmenu degli elementi del menu*/
+ul.submenu{
+    display: none;    
+    position: relative;
+    z-index:1;
+    width:98%;
+    margin: 0;
+    background-color: #000000;
+    list-style-type: none;
+    text-transform: none;  
+    font-size: 10pt; 
+    text-align: center; 
+    padding:0;
+    color:#FFE4C4;
+    float:left;
+}
+
+/*elementi della lista del sottomenu*/
+ul.submenu li{
+    padding:8px; 
+} 
+
+/*visualizzazione del sottomenu*/
+li.menu:hover ul.submenu{
+    display: block; 
+}
+
+
+/*contenuto*/
+/*contenitore della sidebar e del content*/
+div#main{
+    width: 1000px;
+    height: auto;     
+}
+
+/*sidebar*/
+div#sidebarsx{
+    height: 100%;      
+    width: 20%;
+    float: left;    
+    color: #000000;
+    background-color: transparent;
+}
+
+div#sidebarsx ul{
+    margin-top:40px;
+    list-style-type: none;
+}
+
+div#sidebarsx li{
+    margin-bottom: 20px;
+    font-size: 13pt;
+}
+
+/*content*/
+div#content{
+    width:79%;
+    height:auto;
+    min-height:700px;
+    background-color: transparent;
+    float:left;
+    color: #560319;
+}
+
+
+/*footer*/
+footer{
+    color: #560319;
+    font-size: 10pt;
+    height: 160px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 0px;
+    clear: both;
+}
+
+
+/*proprietà link*/
+
+a:link{
+    text-decoration: none;
+}
+
+/*link del sidebar*/
+a:link.sidebar{    
+    color: #560319;    
+}
+
+a:visited.sidebar{
+    color: #560319;
+}
+
+/*link del nav*/
+nav a:link {
+    color:#FFE4C4;
+}
+
+a.menu{
+    position:relative;
+    height:71%;
+    width:100%;
+    padding: 0px;
+    float:left;
+    font-size:14pt;
+    padding-top:15px;
+    background-color: #000000;    
+}
+
+a:link.submenu{    
+    color: #FFE4C4;
+}
+
+
+/*link con mouseover*/
+a:hover{
+    font-weight: bold;
+}
+
+/*link del menu*/
+a.menu:hover{ 
+    position:relative;   
+    margin:0;
+    height:72%;
+    width:100%;
+    padding-top:15px;
+    float:left;
+    border:none;
+}
+
+/*link del sottomenu*/
+a:hover.submenu{    
+    color: #FFE4C4;
+}
+
+
+
+/*link visitati del menu*/
+a:visited.menu{
+    color: #FFE4C4;
+    text-decoration: none;
+}
+
+a.menu:visited{
+    color: #FFE4C4;
+    text-decoration: none;
+}
+
+a:visited.submenu{
+    color: #FFE4C4;    
+    border-bottom:2px solid #000000;
+}
+
+
+a:active{
+    color: #FFCC99;
+    text-decoration: none;
+}	
+
+/*link delle taglie*/
+a.taglie{
+    color: #560319;
+}
+
+a:visited.taglie, a:active.taglie{
+    color: #560319;
+    font-weight: bold;
+}
+
+
+/*immagine carrello della sidebar*/
+img#carrello{
+    height:20px;
+    width: 20px;
+    margin-bottom: -3px;
+}
+
+/*per home.php*/
+/*titolo*/
+div#homepage h3, div#homepage p{
+    padding-left:50px;
+}
+
+#homepage{
+    position:relative;
+}
+
+/*slider delle immagini*/
+.slider {
+    width: 661px;
+    height: 368px;
+    border-radius: 10px;
+    color: #fff;
+    margin: 20px auto;
+}
+
+.slider img{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.slider > div > div {
+    width: 100%;
+    height: 100%;
+    background: none;
+}
+
+/*per login.html*/
+div#form-login{
+	padding-top: 20px;
+    text-align: center;	
+    margin-bottom: 10px;
+    padding-bottom: 300px;
+}
+
+#content h4{
+	font-weight: bolder;
+	font-size: 14pt;	
+}
+
+/*per descrizione.html, pagamenti.html e spedizioni.html*/
+div.sidebar p{
+    padding-top: 0;
+    padding-left: 9px;
+    padding-right: 6px;
+    padding-bottom: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: justify;
+}
+
+p.title{
+    margin-top: 40px;
+    padding-top:5px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;    
+    text-decoration: underline;
+}
+
+
+/*per guidaTaglie.html*/
+#taglie table{
+    margin-left:75px;
+    margin-bottom: 70px;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 450px;
+    border: 2px solid #D0B1A1;
+    border-collapse: collapse;
+}
+
+#taglie table th, #taglie table td{
+    padding: 10px;
+    border: 1px solid #D0B1A1;
+}
+
+#taglie table tr th{
+    background-color: #FFF5EE;    
+}
+
+div#uomodonna{
+    text-align: center;
+    font-size: 15pt;   
+}
+
+
+/*visualizzazione articoli*/
+div.articoli p.title{
+    padding-top:30px;
+    padding-left:10px;
+    font-weight: bold;
+    font-size:20px;
+}
+
+table.articoli{
+    margin-left: 10px;
+    margin-bottom:50px;
+}
+
+div#immagineScarpa{
+    margin:0;
+    width:250px;
+    height:250px;
+}
+table.articoli img{
+    width:100%;
+    height: 100%;
+    border: 0.5px solid #F08080;
+    margin:0;
+    padding:0;
+}
+
+div#descrizione{
+    width:250px;
+    height: 33.5px;
+}
+
+table.articoli p{
+    padding-left:3px;
+    padding-right:3px;
+    text-align:justify;
+    font-size:14px;
+}
+
+table.articoli td{
+    width: 250px;
+    height: 300px;
+    //border:0.5px solid #F08080;
+    padding-top:0;
+    padding-bottom:10px;
+}
+
+
+form#carrello{
+    height: 28px;
+    width: 250px;
+    position:relative;   
+}
+
+input.btn_carrello, select { 
+    text-align: center; 
+    padding: 5px; 
+    border: solid 1px #000000; 
+    margin-left: 3px;
+}
+
+input:focus, select.focus { 
+    outline: 0; 
+}
+
+input.btn_carrello{
+    width: 150px;
+    height: 25px;
+    margin-left: 30px;
+    font-size: 8pt;
+    background: #111; 
+    color: #FFF; 
+    cursor: pointer; 
+}
+
+
+/*visualizzazione carrello*/
+div#viewCarrello{
+    position:relative;
+    padding: 30px;
+    text-align:center;
+}
+
+#viewCarrello table/*#mioCarrello.carrello*/{
+    position: relative;
+    //width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border:0.5px solid #D0B1A1;
+    background-color: #FFFFFF;  
+}
+
+#viewCarrello table tr{
+    position: relative;
+    //height: 30%;
+    border:0.5px solid #D0B1A1;
+}
+
+#viewCarrello table th{  
+    height:30px;
+    border-bottom:0.5px solid #D0B1A1;
+    padding-left:3px;
+    padding-right:3px;
+    background-color: #FFF5EE;  
+}
+
+
+
+#viewCarrello table td{
+    position: relative;
+    //height: 80px;
+    width:auto;   
+    border-bottom:0.5px solid #D0B1A1; 
+    
+}
+#viewCarrello table img{
+    position: relative;
+    width:70px;
+    height: 70px;
+    border: 0.5px solid #D0B1A1;
+    padding-top:0px;
+    padding-left:0px;
+
+}
+
+#viewCarrello table p{
+    padding-left:10px;
+    padding-right:10px;
+    font-size:14px;
+}
+
+/*#viewCarrello table input.btn_delcarrello{
+    width: 30px;
+    height: 30px;
+    margin-left: 3px;
+    font-size: 8pt;
+    background: #000000; 
+    color: #FFFFFF; 
+    padding:0;
+    cursor: pointer; 
+}*/
+
+#viewCarrello input.carrelloB{
+    width: 200px;
+    height: 44px;
+    margin-top: 20px;
+    font-size: 14pt;
+    background: #111; 
+    color: #FFF; 
+    cursor: pointer;    
+}
+
+#viewOrdine h3{
+    margin-top:100px;
+    margin-left:40px;
+}
+ /*AMMINISTRATORE*/
+ h4{
+    margin-top:50px;
+    margin-left:30px;
+ }
+ #form-aggiungi input#submitAddArticle{
+    width: 150px;
+    height: 44px;
+    margin-top: 5px;
+    margin-bottom:100px;
+    font-size: 14pt;
+    background: #111; 
+    color: #FFF; 
+    cursor: pointer;   
+}
+
+#form-aggiungi form#addForm{
+    margin-left:30px;
+}
+
+/*footer*/
+footer p{
+    text-align:center;
+    padding-top:10px;
+    font-size: 9pt; 
+}
