@@ -53,6 +53,11 @@
 						<option value = '38'>38
 						<option value = '39'>39
 						<option value = '40'>40
+						<option value = '41'>41
+						<option value = '42'>42
+						<option value = '43'>43
+						<option value = '44'>44
+						<option value = '45'>45
 				   	</select>";
 
 			print "<input class=\"btn_carrello\" type=\"button\" value = \"Aggiungi al carrello\" onclick=\"aggiungiCarrello(".$id.", '".$nome."', '".$immagine."', ".$prezzo.", ".$k.")\"></input>"; ///*id, nome, immagine, prezzo*/

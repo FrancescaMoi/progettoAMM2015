@@ -126,8 +126,6 @@
                ?>
             </header>
 
-                     
-             
             <div id="sidebarsx"> 
                 <?php
                     include "view/base/sidebarsx.php";  //da cambiare??
