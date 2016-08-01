@@ -1,9 +1,9 @@
 <?php
 	class DAL{
-		private $DB_HOST = "156.148.32.239";
+		private $DB_HOST = "localhost"//"156.148.32.239";
 		private $DB_USER = "moiFrancesca";
 		private $DB_PASSWORD = "volpe8126";
-		private $DB_DATABASE = "amm2015_moiFrancesca";
+		private $DB_DATABASE = "amm15_moiFrancesca";
 
 		public function __construct(){}
 
