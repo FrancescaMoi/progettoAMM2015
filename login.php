@@ -32,9 +32,6 @@
 		$dal->searchUser($username,$password);
 		
 		if(!isset($_SESSION["is_logged"]) || !$_SESSION["is_logged"]){
-			$message = "Accesso effettuato!";
-		}
-		else{
 			$message = "Errore: nome utente o password errati!";
 		}
 	}
