@@ -9,6 +9,11 @@
 				include "view/base/formInput.php";
 				break;
 			}
+			case 'loginPage':{
+				include "login.php";
+				break;
+			}
+
 			case 'novita' : {
 				include "view/base/Nav/articoli.php";
 				break;

@@ -1,6 +1,6 @@
 <?php
 	class DAL{
-		private $DB_HOST = "localhost";//"156.148.32.239";
+		private $DB_HOST = "localhost";
 		private $DB_USER = "moiFrancesca";
 		private $DB_PASSWORD = "volpe8126";
 		private $DB_DATABASE = "amm15_moiFrancesca";
@@ -28,9 +28,6 @@
 		public function searchUser($username, $password) {
 			$mysqli = $this->dbconnect();
 
-					echo $username;
-					echo $password;
-
 			$query = "SELECT cliente.id, cliente.username 
 						FROM cliente 
 						WHERE username = '$username' and password = '$password'";
@@ -54,7 +51,7 @@
 					$_SESSION["type"] = 0;
 					$_SESSION["is_logged"] = 1;
 
-					header("location: index.php");
+					include "view/base/home.php";
 					exit;
 				}
 			}
@@ -70,23 +67,19 @@
 				$mysqli->errno : $mysqli->error", 0);
 			}else {
 				// query eseguita correttamente
-				echo "<ul>\n";
 				
 				$obj = $result->fetch_object();
-				echo $obj->id;
-				echo $obj->username;
-				echo $obj->password;
-
-				echo "</ul>\n";
-
+			
 				if(count($obj)){
 					$_SESSION["username"] = $username;
 					$_SESSION["type"] = 1;
 					$_SESSION["is_logged"] = 1;
 
-					header("location: index.php");
+					include "view/base/home.php";				
 					exit;
 				}
+
+				
 			}
 
 
