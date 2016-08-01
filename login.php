@@ -31,10 +31,10 @@
 
 		$dal->searchUser($username,$password);
 		
-		if(!isset($_SESSION["is_logged"]) || !$_SESSION["is_logged"]){
-			$message = "Errore: nome utente o password errati!";
-		}
+		$message = "Errore: nome utente o password errati!";
+		
 	}
+
 	echo "<script type='text/javascript'>alert('$message');</script>";		
 	include "view/base/formInput.php"
 ?>
